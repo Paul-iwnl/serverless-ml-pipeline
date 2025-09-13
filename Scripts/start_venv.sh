@@ -15,7 +15,7 @@ source "$VENV_PATH/bin/activate"
 
 # Optional: install common packages
 pip install --upgrade pip
-pip install requests praw pandas
+pip install requests praw pandas boto3
 echo "Virtual environment activated and packages installed."
 
 #To activate, use: source ./start_venv.sh
